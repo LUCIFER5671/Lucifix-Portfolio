@@ -1,16 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
@@ -20,31 +13,47 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+            <Col md={12} className="home-header">
+              <p style={{ paddingBottom: 15, fontWeight: 500 }} className="heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+                <span className="wave" role="img" aria-label="waving hand">
                   👋🏻
                 </span>
-              </h1>
+              </p>
 
-              <h1 className="heading-name">
+              <h1
+                style={{
+                  fontSize: "clamp(1.8rem, 8vw, 2.5rem)",
+                  paddingLeft: "clamp(0px, 4vw, 45px)",
+                }}
+              >
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> ROSHKRISHNA K RANJITH</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <p
+                style={{
+                  fontSize: "clamp(1.1rem, 4.5vw, 1.6rem)",
+                  paddingLeft: "clamp(0px, 4vw, 45px)",
+                  paddingTop: 10,
+                }}
+              >
+                Graduate Researcher - AI &amp; Robotics
+              </p>
+
+              {/* Decorative: everything typed here is also stated in the intro below */}
+              <div
+                aria-hidden="true"
+                style={{
+                  position: "relative",
+                  minHeight: "6em",
+                  padding: "clamp(16px, 5vw, 50px) 0",
+                  paddingLeft: "clamp(0px, 4vw, 50px)",
+                  textAlign: "left",
+                }}
+              >
                 <Type />
               </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
             </Col>
           </Row>
         </Container>
@@ -54,49 +63,40 @@ function Home() {
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
-            <h1>Find Me On</h1>
+            <h2>Find Me On</h2>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/LUCIFER5671"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub profile (opens in a new tab)"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillGithub aria-hidden="true" />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.linkedin.com/in/roshkrishna-kalathil-ranjith-12a5971b3/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn profile (opens in a new tab)"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaLinkedinIn aria-hidden="true" />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
+                  href="mailto:kroshkrishna@gmail.com"
+                  aria-label="Email kroshkrishna@gmail.com"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
+                  <AiOutlineMail aria-hidden="true" />
                 </a>
               </li>
             </ul>
