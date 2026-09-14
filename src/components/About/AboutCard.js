@@ -8,37 +8,44 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m{" "}
+            <span className="purple">Roshkrishna K Ranjith</span>, based in
+            the <span className="purple">Detroit Metropolitan Area</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            I’m currently doing my{" "}
+            <span className="purple">Master’s in AI</span> at the{" "}
+            <span className="purple">University of Michigan</span> (2025 – ),
+            and I also work full time as a{" "}
+            <span className="purple">Graduate Student Research Assistant</span>{" "}
+            at PlayLab.
+            <br />I completed my Bachelor’s in{" "}
+            <span className="purple">
+              Electronics and Communication Engineering
+            </span>{" "}
+            from <span className="purple">CUSAT</span> (Cochin University of
+            Science and Technology) (2021 – 2025).
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            Along with my technical skills, I bring:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Leadership
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Marketing
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Sales
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Communication
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> MS Office
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
