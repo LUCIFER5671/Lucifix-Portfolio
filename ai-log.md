@@ -4,11 +4,11 @@
 
 \## Tools used
 
-\- Claude (Anthropic) — setup guidance, content-notes structuring, spelling 
+\- Claude (Anthropic) — setup guidance, content-notes structuring, spelling
 
 &#x20; corrections, and the implementation prompt below (Corrected by me for errors and corrections).
 
-\- Content used: my own public resume and LinkedIn information, published with 
+\- Content used: my own public resume and LinkedIn information, published with
 
 &#x20; my permission.
 
@@ -28,13 +28,13 @@ Project context:
 
 \- Purpose: present my skills and projects to internship and research reviewers.
 
-\- Existing system: a React (create-react-app) portfolio template, forked from 
+\- Existing system: a React (create-react-app) portfolio template, forked from
 
 &#x20; soumyajit4419/Portfolio.
 
 \- Allowed changes: content, styling, and small front-end corrections only.
 
-\- Do not add: a backend, login system, analytics tracker, or external data 
+\- Do not add: a backend, login system, analytics tracker, or external data
 
 &#x20; collection.
 
@@ -58,7 +58,7 @@ Files likely to change:
 
 Acceptance criteria:
 
-1\. The landing page displays "Roshkrishna K Ranjith" and the role 
+1\. The landing page displays "Roshkrishna K Ranjith" and the role
 
 &#x20;  "Graduate Researcher - AI \& Robotics".
 
@@ -70,7 +70,7 @@ Acceptance criteria:
 
 4\. The site is readable and usable on a 375px-wide mobile viewport.
 
-5\. No placeholder name, email, resume file, or template image from the original 
+5\. No placeholder name, email, resume file, or template image from the original
 
 &#x20;  author remains.
 
@@ -78,15 +78,19 @@ Acceptance criteria:
 
 Constraints:
 
-\- Do not invent education, work history, awards, links, or technical skills. 
+\- Do not invent education, work history, awards, links, or technical skills.
 
 &#x20; Use only what is in content-notes.md.
 
-\- Preserve the original MIT license and attribution.
+\- The original repository has no license file. Attribution is preserved via a
+
+&#x20; credit link in the footer and README, per the upstream author's request to
+
+&#x20; link back. No LICENSE file is fabricated.
 
 \- Keep the site usable on mobile screens.
 
-\- Maintain readable contrast, keyboard navigation, meaningful link text, and 
+\- Maintain readable contrast, keyboard navigation, meaningful link text, and
 
 &#x20; useful image alternative text.
 
@@ -109,7 +113,9 @@ First provide:
 Do not modify files until the plan is reviewed.
 
 
-##Response 1
+
+\##Response 1 (By AI)
+
 
 Implementation plan
 
@@ -230,10 +236,12 @@ Git: when it's done, should I commit locally, push to LUCIFER5671/Lucifix-Portfo
 Review item 	My response
 
 
+
 \### Accepted plan element:  The file-by-file breakdown, deleting Toolstack.js, and adding an Experience section to About.js. Each change traces directly to a line in content-notes.md, and the plan explicitly refused to invent content where my notes were silent (no project links, no hobbies, no Tools section).
 
 
-\### Revised plan element	Four revisions: (1) Delete the GitHub contributions calendar as it calls back to a log in the backend, (2) keep MATLAB, OpenCV, and Raspberry Pi in project descriptions and add them to the skill set; (3) approved publishing the DRDO project and my Gmail address after review; (4) supply my own images instead of accepting a text-only site. I also rejected the plan's licensing remedy—see below.
+
+\### Revised plan element	Four revisions: (1) Delete the GitHub contributions calendar as it calls back to a third party API provider, (2) keep MATLAB, OpenCV, and Raspberry Pi in project descriptions and add them to the skill set (DO Both); (3) approved publishing the DRDO project and my Gmail address after review; (4) supply my own images instead of accepting a text-only site. I also rejected the plan's licensing remedy—see below.
 
 
 
