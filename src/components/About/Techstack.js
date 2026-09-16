@@ -19,51 +19,51 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <BiNetworkChart fontSize={"24px"} />
+        <BiNetworkChart fontSize={"24px"} aria-hidden="true" />
         <div className="tech-icons-text">DSA</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Python} alt="Python" />
+        <img src={Python} alt="" />
         <div className="tech-icons-text">Python</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={SQL} alt="Oracle SQL" />
+        <img src={SQL} alt="" />
         <div className="tech-icons-text">DBMS (Oracle SQL)</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={C} alt="C++" />
+        <img src={C} alt="" />
         <div className="tech-icons-text">C++</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="Java" />
+        <img src={Java} alt="" />
         <div className="tech-icons-text">Java</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiArduino fontSize={"24px"} />
+        <SiArduino fontSize={"24px"} aria-hidden="true" />
         <div className="tech-icons-text">Arduino</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCsharp fontSize={"24px"} />
+        <SiCsharp fontSize={"24px"} aria-hidden="true" />
         <div className="tech-icons-text">C#</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiUnity fontSize={"24px"} />
+        <SiUnity fontSize={"24px"} aria-hidden="true" />
         <div className="tech-icons-text">Unity</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiScikitlearn fontSize={"24px"} />
+        <SiScikitlearn fontSize={"24px"} aria-hidden="true" />
         <div className="tech-icons-text">scikit-learn</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbMathFunction fontSize={"24px"} />
+        <TbMathFunction fontSize={"24px"} aria-hidden="true" />
         <div className="tech-icons-text">MATLAB</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiOpencv fontSize={"24px"} />
+        <SiOpencv fontSize={"24px"} aria-hidden="true" />
         <div className="tech-icons-text">OpenCV</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRaspberrypi fontSize={"24px"} />
+        <SiRaspberrypi fontSize={"24px"} aria-hidden="true" />
         <div className="tech-icons-text">Raspberry Pi</div>
       </Col>
     </Row>
