@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Lucifix-Portfolio/static/css/main.3218a185.css",
+    "main.js": "/Lucifix-Portfolio/static/js/main.cd660ca1.js",
+    "static/js/453.ace21015.chunk.js": "/Lucifix-Portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/SQL.svg": "/Lucifix-Portfolio/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
+    "static/media/Roshkrishna_K_Ranjith_Resume.pdf": "/Lucifix-Portfolio/static/media/Roshkrishna_K_Ranjith_Resume.3825ee571bf820143f53.pdf",
+    "static/media/disaster-detection.svg": "/Lucifix-Portfolio/static/media/disaster-detection.c894553eb9fa97ab378c2de8b911096e.svg",
+    "static/media/face-door.svg": "/Lucifix-Portfolio/static/media/face-door.1d29081bc84e0f82020b9b30f406f855.svg",
+    "static/media/Python.svg": "/Lucifix-Portfolio/static/media/Python.4c10e3e883c66039a07b3d1da3551107.svg",
+    "static/media/monocular-vision.svg": "/Lucifix-Portfolio/static/media/monocular-vision.fe3f369f208df478da515c422483c63e.svg",
+    "static/media/ai-robotics.svg": "/Lucifix-Portfolio/static/media/ai-robotics.e20b89220966a14120f72594593bbbfe.svg",
+    "static/media/pre.svg": "/Lucifix-Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Lucifix-Portfolio/index.html",
+    "static/media/Java.svg": "/Lucifix-Portfolio/static/media/Java.edcb9f2574179c38ce343ae59e91b5bc.svg",
+    "static/media/C++.svg": "/Lucifix-Portfolio/static/media/C++.a87de30de97ce5ed259ace5ef23c7e91.svg",
+    "main.3218a185.css.map": "/Lucifix-Portfolio/static/css/main.3218a185.css.map",
+    "main.cd660ca1.js.map": "/Lucifix-Portfolio/static/js/main.cd660ca1.js.map",
+    "453.ace21015.chunk.js.map": "/Lucifix-Portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3218a185.css",
+    "static/js/main.cd660ca1.js"
+  ]
+}

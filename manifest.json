@@ -1,0 +1,20 @@
+{
+  "short_name": "RKR Portfolio",
+  "name": "Roshkrishna K Ranjith | Portfolio",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1b1330",
+  "background_color": "#1b1330"
+}
