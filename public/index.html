@@ -9,6 +9,20 @@
   <meta name="theme-color" content="#000000" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Roshkrishna K Ranjith | Portfolio</title>
+
+  <script>
+    // Restores the path that public/404.html moved into the query string
+    // (e.g. /Lucifix-Portfolio/?/about -> /Lucifix-Portfolio/about) before React Router reads it.
+    // Technique from https://github.com/rafgraph/spa-github-pages (MIT License).
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search.slice(1).split("&").map(function (s) {
+          return s.replace(/~and~/g, "&");
+        }).join("?");
+        window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+      }
+    })(window.location);
+  </script>
   <meta name="description"
     content="Portfolio of Roshkrishna K Ranjith, Graduate Researcher in AI &amp; Robotics and MS in AI student at the University of Michigan.">
 
