@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import aiRobotics from "../../Assets/ai-robotics.svg";
 
 // From content-notes.md, newest first
 const experience = [
@@ -47,7 +47,8 @@ const experience = [
     detail: "A 3D website development company based in Bangalore.",
   },
   {
-    title: "ECSA (Electronics and Communication Student Association)",
+    title: "Project Associate",
+    org: "ECSA (Electronics and Communication Student Association)",
     dates: "Aug 2023 – Jan 2024 · 6 months",
   },
   {
@@ -88,7 +89,11 @@ function About() {
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
               className="about-img"
             >
-              <img src={laptopImg} alt="about" className="img-fluid" />
+              <img
+                src={aiRobotics}
+                alt="Illustration of a neural network sending signals to a robot arm"
+                className="img-fluid"
+              />
             </Col>
           </Row>
           <h1 className="project-heading">

@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import monocularVision from "../../Assets/Projects/monocular-vision.svg";
+import faceDoor from "../../Assets/Projects/face-door.svg";
+import disasterDetection from "../../Assets/Projects/disaster-detection.svg";
 
 function Projects() {
   return (
@@ -17,6 +20,8 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={monocularVision}
+              imgAlt="Illustration of a single camera measuring the distance and angle to an object"
               title="DRDO - Monocular Vision Development"
               points={[
                 "Developed and implemented MATLAB-based edge detection algorithms using Sobel and Canny filters.",
@@ -29,6 +34,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={faceDoor}
+              imgAlt="Illustration of a camera recognizing a face, unlocking a door, and sending a message"
               title="Face detection using Raspberry Pi and Pi Cam with automatic door opening and messaging system"
               points={[
                 "Facial detection for home automation using Raspberry Pi and Pi Cam.",
@@ -41,6 +48,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={disasterDetection}
+              imgAlt="Illustration of a circuit board with fire, flood, earthquake, and smoke sensors"
               title="Disaster detection and prediction system"
               points={[
                 "Combined test circuit containing sensors to detect flood, fire, earthquake, and smoke.",
