@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Roshkrishna K Ranjith | Portfolio</title>
+  <script>
+    // GitHub Pages serves this file for any path it can't find, such as /Lucifix-Portfolio/about.
+    // Move the path into the query string and load the app; index.html restores it for React Router.
+    // Technique from https://github.com/rafgraph/spa-github-pages (MIT License).
+
+    // Keep 1 path segment: the repository name in https://lucifer5671.github.io/Lucifix-Portfolio/
+    var pathSegmentsToKeep = 1;
+
+    var l = window.location;
+    var segments = l.pathname.split("/");
+    l.replace(
+      l.protocol + "//" + l.host +
+      segments.slice(0, 1 + pathSegmentsToKeep).join("/") + "/?/" +
+      segments.slice(1 + pathSegmentsToKeep).join("/").replace(/&/g, "~and~") +
+      (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+      l.hash
+    );
+  </script>
+</head>
+
+<body>
+</body>
+
+</html>

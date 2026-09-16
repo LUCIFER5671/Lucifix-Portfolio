@@ -759,3 +759,25 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Accessibility */
+/* --------- */
+
+/* The rules above remove focus styles; restore a visible ring for keyboard users */
+.navbar-toggler:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid #e3b6ff !important;
+  outline-offset: 3px !important;
+}
+
+/* Justified text leaves large word gaps on narrow screens */
+.about-card-text {
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .about-card-text {
+    text-align: left;
+  }
+}

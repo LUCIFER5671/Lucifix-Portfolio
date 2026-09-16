@@ -1,56 +1,60 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+          <Col md={{ span: 10, offset: 1 }} className="home-about-description">
+            <h2 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
+            </h2>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m based in the
+              <b className="purple"> Detroit Metropolitan Area</b>. I’m
+              currently doing my
+              <b className="purple"> Master’s in AI </b>
+              at the University of Michigan, and I also work full time as a
+              <b className="purple"> Graduate Student Research Assistant </b>
+              at PlayLab.
               <br />
               <br />
-              I’m proficient in
+              I completed my Bachelor’s in
+              <b className="purple">
+                {" "}
+                Electronics and Communication Engineering (ECE){" "}
+              </b>
+              at CUSAT (Cochin University of Science and Technology).
+              <br />
+              <br />
+              I’ve interned at
+              <b className="purple"> DRDO </b>
+              (Defence Research and Development Organisation), working on
+              monocular vision development, and at
+              <b className="purple"> Hashraft</b>, a 3D website development
+              company based in Bangalore. I’ve also worked at
+              <b className="purple"> Estro Tech Robotics </b>
+              as a logistics and backend developer, for a company focused on
+              in-store marketing using Rob-AD.
+              <br />
+              <br />
+              I work with
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Python, C++, Java, C#, Oracle SQL, MATLAB, and scikit-learn
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
+              , and build with
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Arduino, Raspberry Pi, OpenCV, and Unity
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              .
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
       </Container>

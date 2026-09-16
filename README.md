@@ -1,76 +1,56 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# Roshkrishna K Ranjith — Portfolio
 
-<br/>
+Personal portfolio of **Roshkrishna K Ranjith**, Graduate Researcher - AI & Robotics.
+I'm currently doing my Master's in AI at the University of Michigan and working full time as a Graduate Student Research Assistant at PlayLab.
 
-<center>
+- GitHub: [LUCIFER5671](https://github.com/LUCIFER5671)
+- LinkedIn: [Roshkrishna Kalathil Ranjith](https://www.linkedin.com/in/roshkrishna-kalathil-ranjith-12a5971b3/)
+- Email: [kroshkrishna@gmail.com](mailto:kroshkrishna@gmail.com)
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+## Pages
 
-</center>
+- **Home**: introduction and contact links
+- **About**: bio, skills, and work experience
+- **Projects**: DRDO monocular vision development, face detection door system, and disaster detection and prediction system
+- **Resume**: view and download my resume
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## Built with
 
-## TL;DR
+- React (Create React App)
+- React Bootstrap
+- React Router
+- react-pdf (resume viewer)
+- typewriter-effect and react-tsparticles
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## Run locally
 
-## Built With
+You need [Node.js](https://nodejs.org/) and npm.
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+```bash
+npm install
+npm start
+```
 
-This project was built using these technologies.
+The site runs at http://localhost:3000.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+```bash
+npm test -- --watchAll=false
+npm run build
+```
 
-## Features
+## Editing content
 
-**📖 Multi-Page Layout**
+- Page content lives in `src/components/`.
+- `content-notes.md` is the source for all personal details on the site.
+- Images are in `src/Assets/`. The project and About illustrations are original SVGs made for this site.
+- The resume shown on the site is `src/Assets/Roshkrishna_K_Ranjith_Resume.pdf`.
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Credits
 
-**📱 Fully Responsive**
+This site is built on [Portfolio](https://github.com/soumyajit4419/Portfolio) by [Soumyajit Behera](https://github.com/soumyajit4419). The layout, styling, and components come from that project. The content, illustrations, and later changes are my own.
 
-## Getting Started
+The upstream repository doesn't include a license file, so this fork credits the original author and links back to the original repository, as its README asks.
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## AI use
 
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+I built this with help from Claude (Anthropic). My prompts and review notes are in [`ai-log.md`](ai-log.md).

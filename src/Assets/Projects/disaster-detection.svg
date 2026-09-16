@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#2a1f45" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="300" rx="16" fill="#1b1330"/>
+  <rect width="480" height="300" rx="16" fill="url(#grid)"/>
+
+  <!-- PCB -->
+  <rect x="56" y="40" width="368" height="220" rx="14" fill="#231838" stroke="#8a49a8" stroke-width="3"/>
+  <g fill="none" stroke="#8a49a8" stroke-width="2">
+    <circle cx="76" cy="60" r="6"/>
+    <circle cx="404" cy="60" r="6"/>
+    <circle cx="76" cy="240" r="6"/>
+    <circle cx="404" cy="240" r="6"/>
+  </g>
+
+  <!-- Traces from sensors to the controller -->
+  <g fill="none" stroke="#623686" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M208 132 H176 V100 H164"/>
+    <path d="M272 132 H304 V100 H316"/>
+    <path d="M208 168 H176 V200 H164"/>
+    <path d="M272 168 H304 V200 H316"/>
+  </g>
+
+  <!-- Controller running the prediction model -->
+  <g stroke="#c770f0" stroke-width="2.5" stroke-linecap="round">
+    <path d="M220 118 V111 M232 118 V111 M244 118 V111 M256 118 V111 M268 118 V111"/>
+    <path d="M220 182 V189 M232 182 V189 M244 182 V189 M256 182 V189 M268 182 V189"/>
+  </g>
+  <rect x="208" y="118" width="64" height="64" rx="5" fill="#2c2048" stroke="#c770f0" stroke-width="2.5"/>
+  <text x="240" y="155" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#e3b6ff">ML</text>
+
+  <!-- Alert signal -->
+  <g fill="none" stroke="#c770f0" stroke-width="2.5" stroke-linecap="round">
+    <path d="M228 104 A16 16 0 0 1 252 104"/>
+    <path d="M220 94 A28 28 0 0 1 260 94"/>
+  </g>
+
+  <!-- Sensor sockets -->
+  <g fill="#1b1330" stroke="#c770f0" stroke-width="2">
+    <circle cx="130" cy="100" r="32"/>
+    <circle cx="350" cy="100" r="32"/>
+    <circle cx="130" cy="200" r="32"/>
+    <circle cx="350" cy="200" r="32"/>
+  </g>
+
+  <!-- Fire -->
+  <path d="M130 78 C138 90 148 98 146 110 C144 120 136 124 130 124 C124 124 116 120 114 110 C112 100 120 94 124 86 C126 94 128 96 130 78 Z" fill="#ff9d5c"/>
+  <path d="M130 100 C136 106 137 112 134 117 C131 121 127 120 125 116 C123 110 128 106 130 100 Z" fill="#ffd27a"/>
+
+  <!-- Flood -->
+  <path d="M350 72 C355 79 357 82 357 85 A7 7 0 0 1 343 85 C343 82 345 79 350 72 Z" fill="#5cc8ff"/>
+  <g fill="none" stroke="#5cc8ff" stroke-width="3" stroke-linecap="round">
+    <path d="M328 102 q5.5 -6 11 0 t11 0 t11 0 t11 0"/>
+    <path d="M328 112 q5.5 -6 11 0 t11 0 t11 0 t11 0"/>
+    <path d="M328 122 q5.5 -6 11 0 t11 0 t11 0 t11 0"/>
+  </g>
+
+  <!-- Earthquake -->
+  <polyline points="104,200 114,200 119,186 125,216 131,178 137,212 142,194 146,200 156,200" fill="none" stroke="#e3b6ff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Smoke -->
+  <path d="M344 182 q4 -6 0 -12 M356 180 q4 -6 0 -12" fill="none" stroke="#b9b3c9" stroke-width="2.5" stroke-linecap="round"/>
+  <g fill="#b9b3c9">
+    <circle cx="338" cy="206" r="10"/>
+    <circle cx="352" cy="197" r="13"/>
+    <circle cx="366" cy="206" r="10"/>
+    <rect x="330" y="204" width="44" height="12" rx="6"/>
+  </g>
+</svg>
